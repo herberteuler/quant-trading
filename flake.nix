@@ -25,7 +25,7 @@
           src = ./.;
 
           propagatedBuildInputs = with pkgs; with python.pkgs; [
-            matplotlib numpy pandas statsmodels yfinance
+            ipykernel matplotlib numpy pandas statsmodels yfinance
           ];
 
           format = "other";
